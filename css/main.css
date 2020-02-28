@@ -1,0 +1,269 @@
+
+/***section heights***/
+
+
+body {
+    height:auto;
+    width:1200px;
+    background-color: whitesmoke;
+
+}
+
+#photo, #about, #me   {
+    
+    background-image: url("img/wood.jpg");
+    background-size:cover;
+    background-position: center;
+    width:1200;
+    height: 300px;
+    margin-left: 80px;
+    padding-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    
+}
+
+#contact  {
+   
+    width:1200px;
+
+}
+
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 500px;
+    margin: 0 auto;
+    float:left;
+}
+
+#contact .third-width {
+    width: 400px;
+    margin: 0 auto;
+    float:left;
+    
+}
+
+
+/***header section***/
+
+header {
+    
+    background-image: url("../img/succulents.jpg");
+    background-size:cover;
+    background-position: center;
+    width:1200px;
+    height: 700px;
+    margin-left: 35px;
+}
+
+#header h1 {
+    font-family: 'Amatic SC';
+    font-size: 60px;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 35px;
+    margin-top:0px;
+   word-spacing: 15px;
+    color: #400000;
+}
+
+#header h1 span {
+    font-family: 'Seaweed Script';
+    font-size: 120px;
+}
+
+#header h2 {
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    text-align: right;
+    padding-top: 10px;
+    margin-top: 80px;
+    padding-right:100px;
+    margin-right: 20px;
+    padding-bottom: 0;
+    color: #133337;
+    word-spacing: 20px;
+   
+}
+
+#header h2 span {
+    font-family: 'Seaweed Script';
+    font-size: 80px;
+}
+
+/********nav bar*******/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    word-spacing: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 1px;
+    
+}
+
+/****portfolio section***/
+
+h3 {
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+}
+
+#jubilee {
+    margin-left: 150px;
+    font-family: 'Quicksand';
+    height: 250px;
+    font-size: 20px;
+    align-content: center;
+}
+
+#rogue {
+    margin-left: 150px;
+    font-family: 'Quicksand';
+    height: 250px;
+    font-size: 20px;
+    align-content: center;
+}
+
+#advice {
+    margin-left: 150px;
+    font-family: 'Quicksand';
+    height: 250px;
+    font-size: 20px;
+    align-content: center;
+}
+
+#aba {
+    margin-left: 150px;
+    font-family: 'Quicksand';
+    height: 250px;
+    font-size: 20px;
+    align-content: center;
+}
+
+/*******about me*****/
+#me h3 {
+    margin-left: -80px;
+    word-spacing: 10px;
+}
+
+#about h5 {
+    margin-right: 110px;
+    font-family: 'Amatic SC';
+    padding-top: 0px;
+    padding-bottom: 0;
+    color: #400000;
+
+}
+
+#about h5 {
+    font-family: 'Amatic SC';
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: -310px;
+    padding-top: 0;
+    
+
+}
+
+#about p {
+    font-family: 'Quicksand';
+    font-size: 20px;
+
+}
+
+#about {
+    padding-left: 0px;
+    margin-left: 0;
+}
+
+#photo {
+    margin-right: 10px;
+    margin-top: 30px;
+    
+}
+
+
+/*******contact section****/
+
+h6 {
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+}
+
+#email {
+    align-content: center;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+#email p {
+    margin-left: 180px;
+    font-family: 'Seaweed Script';
+    font-size: 30px;
+
+}
+#social p {
+    margin-left: 170px;
+}
+#mingle p {
+    margin-left: 150px;
+    font-family: 'Seaweed Script';
+    font-size: 30px;
+}
+
+/**********footer*******/
+
+#icons {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Amatic SC';
+    text-align: center;
+}
+
+/*******hyperlinks********/
+/* unvisited link */
+a:link {
+    color: slategray;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: darkslategray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: slategray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: darkslategray;
+  }
